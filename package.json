@@ -33,6 +33,10 @@
     "version:patch": "npm version patch",
     "push:origin": "git push --tags origin HEAD:master"
   },
+  "engines": {
+    "node": "~20.11.1",
+    "npm": "~10.4.0"
+  },
   "jshintConfig": {
     "esnext": "true",
     "noyield": "true"
